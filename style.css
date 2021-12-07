@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.background {
+    padding: 1px;
+    background-image: url('https://images.pexels.com/photos/1871508/pexels-photo-1871508.jpeg?cs=srgb&dl=pexels-drew-rae-1871508.jpg&fm=jpg');
+    height: 100vh;
+    
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    grid-auto-rows: 1fr 1fr 1fr;
+    
+}
+h1 {
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+.display {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin: 25px;
+    
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-width: 600px;
+   
+
+}
+
+.cells {
+    border: 2px solid #006901;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.controls button {
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+    margin-left: 1em;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#reset {
+    background-color: #720000;
+}
+
+h2{
+    color: white;
+    padding: 20px;
+    margin: 5px;
+
+}
