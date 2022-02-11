@@ -6,5 +6,3 @@
 
 ## Approach
 - I orginally tried to loop through the possible winning combinations in JS but found I was creating more and more issues so I decided to hard code all the possible winning combos for player X and O. 
-## Issues
-- If I player keeps clicking after there has been an announced winner and there is space on the board the board will still add the players move. I need to figure out a way to stop the event listeners after a winner has been announced. 
